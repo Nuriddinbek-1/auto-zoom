@@ -1,0 +1,112 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+   background-color: black;
+   
+}
+@font-face {
+    font-family: "Lato";
+    src: url("..//..//public/Fonts/Lato-Light.ttf");
+    font-weight: 700;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: "Lato-Thin";
+    src: url("..//..//public/Fonts/Lato-Thin.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("..//..//public/Fonts/Lato-Bold.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+.ant-modal{
+    background-color: black !important;
+    opacity: 0.9;
+}
+.ant-modal, .ant-modal-content {
+    height: 100vh;
+    width: 100% !important;
+    margin: 0;
+    top: 0;
+    background-color: black !important;
+    
+   }
+   .ant-modal-body {
+    height: calc(100vh - 110px);
+    margin: 0 auto;
+    background-color: black !important;
+   }
+.ant-collapse-header{
+  align-items: center !important;
+  gap: 20px;
+  padding: 12px 0 !important;
+}
+.ant-collapse-header-text{
+    border-bottom:  1px solid white;
+    padding: .5rem 0;
+}
+.ant-collapse-expand-icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: auto !important;
+    /* width: 35px !important;
+    height: 35px !important; */
+    padding-inline-end: 0 !important;
+    
+    color: white;
+    
+}
+.ant-collapse-expand-icon span{
+    padding: .6rem;
+    /* transform: translateX(-50%); */
+}
+.ant-collapse-content-box p{
+    padding-left: 50px !important;
+
+}
+.slick-track {
+    display: flex !important;
+    /* gap: 1rem; */
+    justify-content: start !important;
+    margin: 0;
+}
+.section{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+/* .links{
+    position: relative;
+}
+.links::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: orange;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.links:hover  {
+    .links::after{
+
+        width: 100%;
+    }
+} */
